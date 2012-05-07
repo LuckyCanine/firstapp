@@ -7,9 +7,8 @@ gem 'rails', '3.2.3'
 
 gem "heroku"
 
-group :development do
-  gem 'sqlite3', '1.3.5'
-end
+gem 'pg'
+
 
 
 # Gems used only for assets and not required
